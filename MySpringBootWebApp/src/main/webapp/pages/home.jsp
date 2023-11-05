@@ -7,6 +7,6 @@
 <title>Hello</title>
 </head>
 <body>
-	My first Web app using spring boot
+	Welcome ${name}
 </body>
 </html>
