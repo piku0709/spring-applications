@@ -7,6 +7,6 @@
 <title>Hello</title>
 </head>
 <body>
-	Welcome ${name}
+	Welcome ${model.aName} ${model.aId} ${model.language}
 </body>
 </html>
