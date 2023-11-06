@@ -13,3 +13,8 @@ Singleton and prototype (these are main in terms of spring framework, there are 
 By default "singleton" is the scope of all beans, with this scope bean objects are created as soon application is up and running
 if we specify "prototype" scope  (@Scope(value="prototype")), bean object is created only when the getBean() method is called 
 or the object is called to access some functionality
+
+# conversion of java objects to json in spring boot api
+spring boot uses jackson library to do the conversion from java object or list of java objects into json format
+
+
